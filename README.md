@@ -60,7 +60,7 @@ Let us call a question like the ones above a `source`. A `pattern` is a string l
 what movies were made in _
 who % the movie %
 ```
-
+the % is a filler
 The idea is that we match words in the `source` with words in the `pattern`. The symbol `_` (an underscore) can match any single word, and the symbol `%` (a percent sign) can match a sequence of zero or more words.
 
 The goal of this assignment is to write a function called `match`, that takes a `pattern` and a `source` as arguments (in that order, each as lists of strings) and returns either:
@@ -92,6 +92,9 @@ should return `['acted in', 'jaws']`
 match(['who', '%', 'the', 'movie', '%'],
       ['what', 'movies', 'were', 'made', 'in', '1974'])
 ```
+If different they return none since who and what aren't the same 
+
+
 should return `None`
 
 For simplicity, we do not allow our pattern to contain the sequence `['%', '%']` or `['%', '_']` because that would make the `match` function much more complicated.
