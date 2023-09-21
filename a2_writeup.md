@@ -12,10 +12,10 @@ This assignment is about learning and applying the while loop and iterating thro
 
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
-I think the most difficult thing for me was trying to figure out how to approach certain problems like #4 where I had to write a solution that could 
+I think the most difficult thing for me was trying to figure out how to approach certain problems and the actual planning. I know what i'm trying to solve but I don't know what steps to take in the problem. For example, the % problem was challenging for me because I didn't know how to actually approach the problem because I didn't know how to use the slice tool. Using the slice and join tools were most challenging for me because I wasn't used to using these functions. The % was confusing for me too because even when you explained what it would do I think that seeing it actually implemented in the examples helped me understand how the % works. 
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
-I could use the match function by 
+I could use the match function to extract information on a movie by having a combination of information you want to store in the database and the match function will be able to go through the database efficently to find what you are looking for. It can iterate throgh both lists to find matches and give you the answer. This is helpful because the list can be as big or as small as you want it to be.
 
 
